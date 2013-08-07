@@ -6,12 +6,13 @@ bill_amount = gets.to_f
 print "What percentage do you want to tip (whole number please)? "
 tip = gets.to_f / 100
 
-puts bill_amount
-puts tip
+#puts bill_amount
+#puts tip
 
 # bill_amount * tip /100
-tip_total = bill_amount * tip
+tip_total = sprintf("$%.2f", bill_amount * tip)
 puts "Your tip total is: #{tip_total}"
 
-total = bill_amount + tip_total
-puts "Your total bill is: #{total}"
+#total = bill_amount + tip_total
+## puts "Your total bill is: #{total}"
+#puts total
