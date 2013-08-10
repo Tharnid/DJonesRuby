@@ -49,15 +49,33 @@ states = Array[ [ "Alaska"],
                 [ "West Virginia"],
                 [ "Wyoming"] ]
 
-# puts states[1...15]
+## puts states[1...15]
+#
+#puts "Start....."
+#
+#count = states.length - 1
+#
+#while count > 0
+#
+#  puts states[count]
+#  count -= 1
+#
+#end
+#
+#puts ".....End"
+#
+#puts states[16]
+#puts states.reverse
+
+
 
 count = 0
 
-while count <= states.length
-
-
+while count < states.length
+  puts "#{count + 1}. #{states[count]}"
   count += 1
-
 end
 
-puts states.count
+states.each_with_index do | state, index |    # giving states and index
+  puts "#{index + 1}. #{state}"
+end
