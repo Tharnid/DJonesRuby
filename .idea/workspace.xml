@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bb01aa2-ab65-4209-998d-573a93a869ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hashes_cs.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number_line.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_line.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hashes_intro.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DJonesRuby.iws" />
@@ -92,7 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/conditionals.rb" />
         <option value="$PROJECT_DIR$/whileLoops.rb" />
         <option value="$PROJECT_DIR$/cases.rb" />
         <option value="$PROJECT_DIR$/awhile.rb" />
@@ -108,6 +105,7 @@
         <option value="$PROJECT_DIR$/hashes_cs.rb" />
         <option value="$PROJECT_DIR$/user_line.rb" />
         <option value="$PROJECT_DIR$/number_line.rb" />
+        <option value="$PROJECT_DIR$/hashes_intro.rb" />
       </list>
     </option>
   </component>
@@ -192,24 +190,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="Ruby.number_line">
-    <configuration default="false" name="arrays_wtf_sc" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="DJonesRuby" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/arrays_wtf_sc.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.hashes_intro">
     <configuration default="false" name="numbers_array" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="DJonesRuby" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -275,6 +256,23 @@
       <EXTENSION ID="JRubyRunConfigurationExtension" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/number_line.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="hashes_intro" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="DJonesRuby" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/hashes_intro.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -486,11 +484,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.arrays_wtf_sc" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.numbers_array" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.hashes_cs" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.user_line" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.number_line" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.numbers_array" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.hashes_cs" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.user_line" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.number_line" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.hashes_intro" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -525,8 +523,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24908759" sideWeight="0.7299864" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27001357" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24908759" sideWeight="0.5848033" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41519675" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -593,11 +591,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cases.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="36" selection-start="240" selection-end="240" vertical-scroll-proportion="0.506383" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conditionals.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="24" selection-start="224" selection-end="224" vertical-scroll-proportion="0.47021276" />
@@ -655,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/numbers_array.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="87" selection-start="654" selection-end="654" vertical-scroll-proportion="0.43664718">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hashes_cs.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="34" selection-start="331" selection-end="331" vertical-scroll-proportion="0.36452243">
@@ -669,16 +655,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/number_line.rb">
+    <entry file="file://$PROJECT_DIR$/user_line.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="115" selection-end="115" vertical-scroll-proportion="0.2651072">
+        <state line="1" column="6" selection-start="1" selection-end="205" vertical-scroll-proportion="0.0331384">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user_line.rb">
+    <entry file="file://$PROJECT_DIR$/numbers_array.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="1" selection-end="205" vertical-scroll-proportion="0.0331384">
+        <state line="40" column="87" selection-start="654" selection-end="654" vertical-scroll-proportion="0.43664718">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/number_line.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="323" selection-end="350" vertical-scroll-proportion="0.6296296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashes_intro.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="55" selection-start="621" selection-end="621" vertical-scroll-proportion="0.66502464">
           <folding />
         </state>
       </provider>
